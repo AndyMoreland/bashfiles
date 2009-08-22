@@ -1,4 +1,4 @@
-source ~/.git-completion.bash
+source ~/.bash/git-completion.bash
 export PS1='\[\033[0;32m\]$(__git_ps1 "(%s)")\[\033\e[0;39m\]$ '
 export PATH=/usr/local/mysql-5.1.32-osx10.5-x86/bin:/usr/local/bin:$PATH
 export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql83/bin:$PATH
