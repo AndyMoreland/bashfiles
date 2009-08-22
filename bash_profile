@@ -13,7 +13,7 @@ alias vim="mvim"
 alias vi="mvim"
 PS1='\W/ $: '
 alias gitx="open -a gitx ."
-source ~/ruby_switcher.sh
+source ~/.bash/ruby_switcher.sh
 if [ -f /opt/local/etc/bash_completion ]; then
   . /opt/local/etc/bash_completion
 fi
