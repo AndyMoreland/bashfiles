@@ -9,8 +9,6 @@ export PATH="/opt/local/bin:$PATH"
 alias l='ssh andrew@andymo.org'
 alias turin='ssh turin.genyes.com'
 alias ls="ls -G"
-alias vim="mvim"
-alias vi="mvim"
 PS1='\W/ $: '
 alias gitx="open -a gitx ."
 source ~/.bash/ruby_switcher.sh
@@ -33,4 +31,3 @@ function railsapp {
          shift 2
          rails $appname -m http://github.com/andymoreland/rails-templates/raw/master/$template.rb $@
 }
-source ~/Ruby/ruby_switcher.sh
