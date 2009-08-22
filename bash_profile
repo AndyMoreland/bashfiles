@@ -9,12 +9,8 @@ export PATH="/opt/local/bin:$PATH"
 alias l='ssh andrew@andymo.org'
 alias turin='ssh turin.genyes.com'
 alias ls="ls -G"
-PS1='\W/ $: '
 alias gitx="open -a gitx ."
 source ~/.bash/ruby_switcher.sh
-if [ -f /opt/local/etc/bash_completion ]; then
-  . /opt/local/etc/bash_completion
-fi
 alias gc='git checkout'
 /opt/local/etc/bash_completion
 complete -o default -o nospace -F _git_checkout gbd
@@ -23,7 +19,7 @@ function vim {
     /usr/local/bin/mvim $* 2> /dev/null 
 }
 function vi { 
-    /usr/local/bin/mvim $* 2> /dev/null 
+   /usr/local/bin/mvim $* 2> /dev/null 
 }
 function railsapp {
          template=$1
